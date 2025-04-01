@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <img src="./pics-for-header/spotify.png" class="spotify-logo">
+                <div class="home-logo">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="home-logo search-icon">
+                    <div class="for-label-and-icon">
+                        <label for="search-for-song">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" id="search-for-song" placeholder="What do you want to play ?">
+                        </label>
+                    </div>
+                    <img src="./pics-for-header/browse.png" class="browse-logo">
+                </div>
+                <div class="header-suggestion-content">
+                    <div class="header-suggestion-link"><a href="#">Premium</a></div>
+                    <div class="header-suggestion-link"><a href="#">Support</a></div>
+                    <div class="header-suggestion-link for-download"><a href="#">Download</a></div>
+                    <div class="header-suggestion-link"><a href="#"><i class="fa-solid fa-circle-arrow-down" style="margin-right:0.5rem;">
+                    </i>Install App</a></div>
+                    <div class="header-suggestion-link"><a href="#">Signup</a></div>
+                    <div class="log-in-badge"><a href="#">login</a></div>
+                </div>
+            </div>
+            <div class="for-mobile-layout">
+                <div class="header-icon-left-side">
+                    <img src="./pics-for-header/spotify.png" class="spotify-logo">
+                </div>
+                <div class="header-icon-right-side">
+                    <div class="home-logo search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="log-in-badge"><a href="#">Open App</a></div>
+                    <div class="search-icon"><i class="fa-solid fa-bars"></i></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="sidebar">
+                    <div class="option">
+                        <div class="lib-option nav-option">
+                            <img src="./assets/library_icon.png" class="lib-image">
+                            <a href="#">Your Library</a>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="lib-box">
+                        <div class="box">
+                            <p class="box-p1">Create your first playlist</p>
+                            <p class="box-p2">It's easy, we'll help you</p>
+                            <button class="badge">Create playlist</button>
+                        </div>
+                        <div class="box">
+                            <p class="box-p1">Let's find some podcasts to follow</p>
+                            <p class="box-p2">We'll keep you updated on new episodes</p>
+                            <button class="badge">Browse podcasts</button>
+                        </div>
+                    </div>
+                    <div class="sidebar-links">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety and Privacy</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                    <div class="language-option">
+                        <i class="fa-solid fa-globe" style="color: #ffffff;"></i> English
+                    </div>
+                </div>
+
+                <div class="main-section">
+                    <!-- 1st card section -->
+                    <div class="artist-name ">
+                        <div class="left-text">
+                            <a href="#">Popular artists</a>
+                        </div>
+
+                        <div class="right-text">
+                            <a href="#">Show all</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="./Cloning-pics/Pritam.jpg" class="profile-image">
+                            <p class="card-title">Pritam</p>
+                            <p class="card-info">Artist</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Cloning-pics/Arjit Singh.jpg" class="profile-image">
+                            <p class="card-title">Arjit Singh</p>
+                            <p class="card-info">Artist</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Cloning-pics/A.R Rehman.jpg" class="profile-image">
+                            <p class="card-title">A.Rehman</p>
+                            <p class="card-info">Artist</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Cloning-pics/Sachin Jigar.jpg" class="profile-image">
+                            <p class="card-title">Sachin Jigar</p>
+                            <p class="card-info">Artist</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Cloning-pics/Vishal Shekhar.jpg" class="profile-image">
+                            <p class="card-title">Vishal Shekhar</p>
+                            <p class="card-info">Artist</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Cloning-pics/Udit Narayan.jpg" class="profile-image">
+                            <p class="card-title">Udit Narayan</p>
+                            <p class="card-info">Artist</p>
+                        </div>
+                    </div>
+
+                    <!-- 2nd Card section -->
+                    <div class="cards">
+                        <div class="artist-name heading">
+                            <div class="left-text">
+                                <a href="#">Popular albums and singles</a>
+                            </div>
+                            <div class="right-text">
+                                <a href="#">Show all</a>
+                            </div>
+                        </div>
+
+                        <div class="music-section">
+                            <div class="card-image for-music-section">
+                                <img src="./Cloning-pics/Sanam Teri Kasam.jpg" class="cover-image">
+                                <p class="card-title">Sanam Teri Kasam (Original Motion Pict..
+                                </p>
+                                <p class="card-info">Himesh Reshammiya,Sameeer Anjaan,Subrat Sinha</p>
+                            </div>
+
+                            <div class="card-image for-music-section">
+                                <img src="./Cloning-pics/Aashoqi 2.jpg" class="cover-image">
+                                <p class="card-title">AAashiqui 2</p>
+                                <p class="card-info">Mithoon,Ankit Tiwari,Jeet Ganguli</p>
+                            </div>
+
+                            <div class="card-image for-music-section">
+                                <img src="./Cloning-pics/Ye wawani hai deewani.jpg" class="cover-image">
+                                <p class="card-title">Yeh jawaani Hai Deewani</p>
+                                <p class="card-info">Pritam</p>
+                            </div>
+
+                            <div class="card-image for-music-section">
+                                <img src="./Cloning-pics/Glory.jpg" class="cover-image">
+                                <p class="card-title">Glory</p>
+                                <p class="card-info">YoYo Honey Singh</p>
+                            </div>
+
+                            <div class="card-image for-music-section">
+                                <img src="./Cloning-pics/Young Goat.jpg" class=" cover-image">
+                                <p class="card-title">Chhema Y, Gur Siddhu</p>
+                                <p class="card-info">Artist</p>
+                            </div>
+
+                            <div class="card-image for-music-section">
+                                <img src="./Cloning-pics/new.jpg" class="cover-image">
+                                <p class="card-title">Mismatched Season 3(Soundtrack from ..</p>
+                                <p class="card-info">Mismatched-cast</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd card section -->
+                    <div class="cards">
+                        <div class="artist-name heading">
+                            <div class="left-text">
+                                <a href="#">Popular Radio</a>
+                            </div>
+                            <div class="right-text">
+                                <a href="#">Show all</a>
+                            </div>
+                        </div>
+
+                        <div class="music-section">
+                            <div class="card-image">
+                                <img src="./images-for-box-3/Arjit.jpg" class="cover-image">
+                                <p class="card-info">With Sachin Jigar, Mithoon,Jigar Ganguli and more</p>
+                            </div>
+
+                            <div class="card-image">
+                                <img src="./images-for-box-3/Diljit.jpg" class="cover-image">
+
+                                <p class="card-info">With Karan Aujla,Shubh,Sidhu Moosewala</p>
+                            </div>
+
+                            <div class="card-image">
+                                <img src="./images-for-box-3/KK.jpg" class="cover-image">
+                                <p class="card-info">With Arman Malik,Pritam,Mohit...</p>
+                            </div>
+                            <div class="card-image">
+                                <img src="./images-for-box-3/IIayaraja.jpg" class="cover-image">
+                                <p class="card-info">With Swarnalatha,Malasia Vasudevan</p>
+                            </div>
+
+                            <div class="card-image">
+                                <img src="./images-for-box-3/Kumar Sanu.jpg" class=" cover-image">
+
+                                <p class="card-info">With A.R Rehman.Atif Aslam,Vishal-...</p>
+                            </div>
+
+                            <div class="card-image">
+                                <img src="./images-for-box-3/Yo Yo.jpg" class="cover-image">
+                                <p class="card-info">With Harish Jayaraj, Anirudh Ravichandra...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <div class="company">
+                            <p class="footer-title">Company</p>
+                            <ul type="none">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">For the Record</a></li>
+                            </ul>
+                        </div>
+                        <div class="communication">
+                            <p class="footer-title">Communication</p>
+                            <ul type="none">
+                                <li><a href="#">For Artists</a></li>
+                                <li><a href="#">Developers</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">Vendors</a></li>
+                            </ul>
+                        </div>
+                        <div class="useful-links">
+                            <p class="footer-title">Useful Links</p>
+                            <ul type="none">
+                                <li><a href="#">Supports</a></li>
+                                <li><a href="#">Free Mobile App</a></li>
+                            </ul>
+                        </div>
+                        <div class="spotify-plans">
+                            <p class="footer-title">Spotify Plans</p>
+                            <ul type="none">
+                                <li><a href="#">Premium Individuals</a></li>
+                                <li><a href="#">Premiun Duo</a></li>
+                                <li><a href="#">Premium Family</a></li>
+                                <li><a href="#">Premium Students</a></li>
+                                <li><a href="#">Spotify Free</a></li>
+                            </ul>
+                        </div>
+                        <div class="know-more-icons">
+                            <div class="social-media-logo "><i class="fa-brands fa-instagram"></i></div>
+                            <div class="social-media-logo"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="social-media-logo"><i class="fa-brands fa-facebook"></i></div>
+                        </div>
+                    </div>
+                    <p class="about-me">Made with <span class="heart">&#x2764</span> by Bishal Yadav </p>
+                </div>
+
+            </div>
+            <div class="music-player">
+                <div class="album-section">
+                    <div class="album">
+                        <img src="./Cloning-pics/Maya Ma.webp" class="bottom-music-logo">
+                        <div class="music-info">
+                            <p class="card-title music-title">Maya Ma</p>
+                            <p class="card-info music-singer">Sushant Kc</p>
+                        </div>
+                    </div>
+                    <div class="add-to-like-song" style="cursor: pointer;">
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </div>
+                </div>
+
+                <div class="player">
+                    <div class="players-control">
+                        <img src="./assets/player_icon1.png" class="player-control-icon">
+                        <img src="./assets/player_icon2.png" class="player-control-icon">
+                        <img src="./assets/player_icon3.png" class="player-control-icon play-button">
+                        <img src="./assets/player_icon4.png" class="player-control-icon">
+                        <img src="./assets/player_icon5.png" class="player-control-icon">
+                    </div>
+                    <div class="playback-bar">
+                        <span class="current-time">02:05</span>
+                        <input type="range" min="0" max="100" step="1" class="progress-bar">
+                        <span class="total-time">4:40</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="control-icons">
+                        <img src="./control icon/play.png">
+                        <img src="./control icon/queue.png">
+                        <img src="./control icon/lyrics.png">
+                        <img src="./control icon/connect device.png">
+                        <img src="./control icon/mute.png">
+                    </div>
+                    <input type="range" min="1" max="15" class="progress-bar volume-range">
+                    <img src="./control icon/media-player.png">
+                    <img src="./control icon/full screen.png">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
